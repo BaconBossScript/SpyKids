@@ -1,0 +1,141 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "BaconBoss Hub | Spy Kids: Armageddon Hyskor Run", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+
+getgenv().tpPlace = "string"
+
+function Teleport(teleportPlace)
+    local player = game.Players.LocalPlayer
+    player.Character.HumanoidRootPart.CFrame = teleportPlace
+end
+
+
+local TpTab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+TpTab:AddButton({
+	Name = "Collect Coins",
+	Callback = function()
+        Teleport(game:GetService("Workspace").Map1.Chambers["KNG_Chamber_VRChamber"].Gameplay.Drives["SKA_DataDrive"]["SKA_DataDrive_center"].CFrame)
+        wait(0.5)
+        Teleport(game:GetService("Workspace").Map1.Chambers["KNG_Chamber_VRChamber"].Gameplay.Drives["SKA_DataDrive"]["SKA_DataDrive_center"].CFrame)
+        wait(0.5)
+        
+        Teleport(game:GetService("Workspace").Map1.Chambers["KNG_Chamber_Armory"].Gameplay.Locks.Yellow.Key["KeyYellowTriangle_frame"].CFrame)
+        wait(0.5)
+        
+        Teleport(game:GetService("Workspace").Map1.Chambers["KNG_Chamber_Armory"].Gameplay.Drives["SKA_DataDrive"]["SKA_DataDrive_center"].CFrame)
+        wait(0.5)
+        
+        Teleport(game:GetService("Workspace").Map1.Chambers["KNG_Chamber_PrisonCells"].Gameplay.Locks.Red.Key["KeyRedSquare_glass"].CFrame)
+        wait(0.5)
+        
+        Teleport(game:GetService("Workspace").Map1.Chambers["KNG_Chamber_PrisonCells"].Gameplay.Drives["SKA_DataDrive"]["SKA_DataDrive_center"].CFrame)
+        wait(0.5)
+        
+        Teleport(game:GetService("ReplicatedStorage").Maps.Map1.Chambers["KNG_Chamber_GreatHall"].Gameplay.Locks.Blue.Key["KeyBlueCircle_glass"].CFrame)
+        wait(0.5)
+        
+        Teleport(game:GetService("ReplicatedStorage").Maps.Map1.Chambers["KNG_Chamber_GreatHall"].Gameplay.Locks.Yellow.Key["KeyYellowTriangle_frame"].CFrame)
+        wait(0.5)
+        
+        Teleport(game:GetService("ReplicatedStorage").Maps.Map1.Chambers["KNG_Chamber_GreatHall"].Gameplay.Locks.Red.Key["KeyRedSquare_frame"].CFrame)
+        wait(0.5)
+        
+        Teleport(game:GetService("ReplicatedStorage").Maps.Map1.Chambers["KNG_Chamber_GreatHall"].Gameplay.Drives["SKA_DataDrive"]["SKA_DataDrive_center"].CFrame)
+        wait(0.5)
+        
+        Teleport(game:GetService("ReplicatedStorage").Maps.Map1.Chambers["KNG_Chamber_Armory"].Gameplay.Locks.Yellow.Key["KeyYellowTriangle_frame"].CFrame)
+        wait(0.5)
+        
+        Teleport(game:GetService("ReplicatedStorage").Maps.Map1.Chambers["KNG_Chamber_Armory"].Gameplay.Drives["SKA_DataDrive"]["SKA_DataDrive_center"].CFrame)
+        wait(0.5)
+        
+        Teleport(game:GetService("Workspace").Map1.Chambers.KNG_Chamber_Armory.Gameplay.Drives.SKA_DataDrive.SKA_DataDrive_center.CFrame)
+        wait(0.5)
+        Teleport(game:GetService("Workspace").Map1.Chambers.KNG_Chamber_Armory.Gameplay.Drives.SKA_DataDrive.SKA_DataDrive_center.CFrame)
+        wait(0.5)
+        
+        Teleport(game:GetService("Workspace").Map1.Chambers.KNG_Chamber_BanquetHall.Gameplay.Drives:GetChildren()[2].SKA_DataDrive_center.CFrame)
+        wait(0.5)
+        
+        Teleport(game:GetService("Workspace").Map1.Chambers.KNG_Chamber_BanquetHall.Gameplay.Drives.SKA_DataDrive.SKA_DataDrive_center.CFrame)
+        wait(0.5)
+        
+        Teleport(game:GetService("Workspace").Map1.Chambers.KNG_Chamber_BanquetHall.Gameplay.Locks.Red.Key.KeyRedSquare_frame.CFrame)
+        wait(0.5)
+        
+        Teleport(game:GetService("Workspace").Map1.Chambers.KNG_Chamber_PrisonCells.Gameplay.Drives:GetChildren()[2].SKA_DataDrive_center.CFrame)
+        wait(0.5)
+        
+        Teleport(game:GetService("Workspace").Map1.Chambers.KNG_Chamber_PrisonCells.Gameplay.Drives.SKA_DataDrive.SKA_DataDrive_center.CFrame)
+        wait(0.5)
+        
+        Teleport(game:GetService("Workspace").Map1.Chambers.KNG_Chamber_ServerRoom.Gameplay.Drives:GetChildren()[3].SKA_DataDrive_center.CFrame)
+        wait(0.5)
+        
+        Teleport(game:GetService("Workspace").Map1.Chambers.KNG_Chamber_ServerRoom.Gameplay.Drives.SKA_DataDrive.SKA_DataDrive_center.CFrame)
+        wait(0.5)
+        
+        Teleport(game:GetService("Workspace").Map1.Chambers.KNG_Chamber_ServerRoom.Gameplay.Drives.SKA_DataDrive.SKA_DataDrive_center.CFrame)
+        wait(0.5)
+        
+        Teleport(game:GetService("Workspace").Map1.Chambers.KNG_Chamber_ServerRoom.Gameplay.Locks.Yellow.Key.KeyYellowTriangle_frame.CFrame)
+        wait(0.5)
+        
+        Teleport(game:GetService("Workspace").Map1.Chambers.KNG_Chamber_Storage.Gameplay.Drives:GetChildren()[5].SKA_DataDrive_center.CFrame)
+        wait(0.5)
+        
+        Teleport(game:GetService("Workspace").Map1.Chambers.KNG_Chamber_Storage.Gameplay.Drives.SKA_DataDrive.SKA_DataDrive_center.CFrame)
+        wait(0.5)
+        
+        Teleport(game:GetService("Workspace").Map1.Chambers.KNG_Chamber_Storage.Gameplay.Drives:GetChildren()[2].SKA_DataDrive_center.CFrame)
+        wait(0.5)
+        
+        Teleport(game:GetService("Workspace").Map1.Chambers.KNG_Chamber_Storage.Gameplay.Drives.SKA_DataDrive.SKA_DataDrive_center.CFrame)
+        wait(0.5)
+        
+        Teleport(game:GetService("Workspace").Map1.Chambers.KNG_Chamber_Storage.Gameplay.Drives.SKA_DataDrive.SKA_DataDrive_center.CFrame)
+        wait(0.5)
+        
+        Teleport(game:GetService("Workspace").Map1.Chambers.KNG_Chamber_TerminalRoom.Gameplay.Drives.SKA_DataDrive.SKA_DataDrive_center.CFrame)
+        wait(0.5)
+        
+        Teleport(game:GetService("Workspace").Map1.Connectors.Gameplay.Drives:GetChildren()[7].SKA_DataDrive_center.CFrame)
+        wait(0.5)
+        
+        Teleport(game:GetService("Workspace").Map1.Connectors.Gameplay.Drives.SKA_DataDrive.SKA_DataDrive_center.CFrame)
+        wait(0.5)
+        
+        Teleport(game:GetService("Workspace").Map1.Connectors.Gameplay.Drives:GetChildren()[3].SKA_DataDrive_center.CFrame)
+        wait(0.5)
+        
+        Teleport(game:GetService("Workspace").Map1.Connectors.Gameplay.Drives.SKA_DataDrive.SKA_DataDrive_center.CFrame)
+        wait(0.5)
+        Teleport(game:GetService("Workspace").Map1.Chambers.KNG_Chamber_Armory.Gameplay.Drives.SKA_DataDrive.SKA_DataDrive_center.CFrame)
+        wait(0.5)
+        
+        Teleport(game:GetService("Workspace").Map1.Chambers.KNG_Chamber_TerminalRoom.Gameplay.Drives.SKA_DataDrive.SKA_DataDrive_center.CFrame)
+        wait(0.5)
+        
+        Teleport(game:GetService("Workspace").Map1.Connectors.Gameplay.Drives:GetChildren()[3].SKA_DataDrive_center.CFrame)
+        wait(0.5)
+        
+        Teleport(game:GetService("Workspace").Map1.Connectors.Gameplay.Drives.SKA_DataDrive.SKA_DataDrive_center.CFrame)
+        wait(0.5)
+        
+        Teleport(game:GetService("Workspace").Map1.Connectors.Gameplay.Drives:GetChildren()[2].SKA_DataDrive_center.CFrame)
+        wait(0.5)
+        
+        Teleport(game:GetService("Workspace").Map1.Connectors.Gameplay.Locks.Blue.Key.KeyBlueCircle_frame.CFrame)
+        Teleport(game:GetService("Workspace").Map1.Connectors.Gameplay.Drives.SKA_DataDrive.SKA_DataDrive_center.CFrame)
+        wait(0.5)
+        
+        Teleport(game:GetService("Workspace").Map1.Connectors.Gameplay.Locks.Blue.Key.KeyBlueCircle_frame.CFrame)
+        wait(0.5)
+
+    end
+}) 
