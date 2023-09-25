@@ -17,7 +17,7 @@ local TpTab = Window:MakeTab({
 })
 
 local Tp4Tab = Window:MakeTab({
-	Name = "Main",
+	Name = "Others",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
